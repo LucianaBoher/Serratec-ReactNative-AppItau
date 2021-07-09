@@ -6,9 +6,11 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/itauLogo.png",
+      "width": 60,
+      "backgroundColor": "#ff7510",
+      "justifyContent": "center",
+      "alignItems": "center"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
