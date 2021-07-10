@@ -24,6 +24,10 @@ const Login = (props) => {
                 style={{ height: "100%", width: "100%" }}
                 start={{ x: 0.0, y: 1.0 }} end={{ x: 0.0, y: 0.0 }}>
 
+                <View>
+                    <View style={styles.statusBar} />
+                </View>
+
                 <View style={styles.viewLogo}>
                     <Image source={require('../../../assets/itauLogo.png')}
                         style={styles.logo} />

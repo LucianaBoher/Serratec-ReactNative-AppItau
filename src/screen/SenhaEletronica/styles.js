@@ -7,15 +7,16 @@ const styles = StyleSheet.create({
     
     statusBar:{      
       backgroundColor: '#d3d3d3',
-      height: "15%",
+      height: "10%",
     },
     
     viewLogin:{
       padding: 40,
-      width: "100%",
+      width: "86%",
       height: "40%",
       bottom: "26%",
       justifyContent: 'center',
+      left: "7%",
     },
     senhaText:{
       color: '#fff',
@@ -25,7 +26,7 @@ const styles = StyleSheet.create({
     },
     entrada:{ 
       bottom: "22%",      
-      borderBottomWidth: 1,
+      borderBottomWidth: 2,
       borderColor: '#fff',
     },
 
@@ -40,7 +41,7 @@ const styles = StyleSheet.create({
     buttonStyles:{
       backgroundColor: '#fff',
       borderRadius: 5,
-      height: "30%",
+      height: "27%",
       width: "83%",
       justifyContent: 'center',     
     },
@@ -52,7 +53,7 @@ const styles = StyleSheet.create({
 
     EsqueciSenhaText:{
       color: '#fff',
-      fontSize: 14,
+      fontSize: 16,
       textAlign: 'center',
       top: "5%",
     },

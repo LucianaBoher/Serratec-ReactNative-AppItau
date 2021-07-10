@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
   textoNumeros: {
      fontSize: 14,
      fontWeight: 'bold',
-     color: '#808085',
+     color: '#808080',
   },
   cartaoCorpo: {
      width: "25%",

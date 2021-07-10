@@ -10,7 +10,7 @@ const AtalhosIcons = (props) => {
         <View>
             <View style={styles.Icons}>
                 <Feather name="command" size={20} color="white" />
-                <MaterialCommunityIcons name="toggle-switch-off-outline" size={20} color="white" />
+                <MaterialCommunityIcons name="toggle-switch-off-outline" size={25} color="white" />
                 <EvilIcons name="question" size={30} color="white" />
             </View>
             <View style={styles.textIcons}>

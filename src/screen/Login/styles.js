@@ -5,18 +5,23 @@ const styles = StyleSheet.create({
       flex: 1,
     },
 
+    statusBar:{      
+      backgroundColor: '#d75413',
+      height: "20%",
+    },
+
     viewLogo:{
-      bottom: "15%",
+      bottom: "35%",
       left: "5%",
     },
     logo:{
       resizeMode: 'contain',
-      width: "15%",
+      width: "14%",
     },
 
     viewText: {
       width: 280,
-      bottom: "30%",
+      bottom: "50%",
       left: "10%",
     },
     textSup: {
@@ -34,7 +39,7 @@ const styles = StyleSheet.create({
       backgroundColor: '#f29000',
       width: "100%",
       height: "30%",
-      bottom: "10%",
+      bottom: "28%",
       // alignItems: 'center',
       left: "3%",          //copiando o pequeno deslocamento do App do Itaú....
       borderRadius: 9,
@@ -42,7 +47,7 @@ const styles = StyleSheet.create({
     },
     entradas:{
       flexDirection: 'row',
-      borderBottomWidth: 1,
+      borderBottomWidth: 2,
       borderColor: '#fff',
     },
     switch:{
@@ -59,7 +64,7 @@ const styles = StyleSheet.create({
     buttonStyles:{
       backgroundColor: '#fff',
       borderRadius: 5,
-      height: "40%",
+      height: "41%",
       width: "100%",
       justifyContent: 'center',      
     },
@@ -71,7 +76,7 @@ const styles = StyleSheet.create({
 
     viewIcons:{
       height: "15%",
-      bottom: "10%",
+      bottom: "30%",
       padding: 20,
       justifyContent: 'center',
       textAlign: 'center',
