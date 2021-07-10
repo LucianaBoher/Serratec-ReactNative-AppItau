@@ -4,7 +4,7 @@ Atividade individual do módulo React Native - replicando duas telas de um App
 <h1> Imagens da Tela 1:</h1>
 
 <p align="center">
-   <img width=40% src="https://user-images.githubusercontent.com/57160228/125175639-d5ee1180-e1a3-11eb-8efc-fd03038fae5f.jpeg" />
+   <img width=40% src="https://user-images.githubusercontent.com/57160228/125146781-0f6c4180-e0fe-11eb-9f36-c5897203b84e.jpeg" />
    <img width=40% src="https://user-images.githubusercontent.com/57160228/125175639-d5ee1180-e1a3-11eb-8efc-fd03038fae5f.jpeg"/>
 </p>
 
