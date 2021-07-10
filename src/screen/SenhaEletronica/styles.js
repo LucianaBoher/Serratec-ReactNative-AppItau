@@ -3,33 +3,63 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
     container: {
       flex: 1,
+    },
+    
+    statusBar:{      
       backgroundColor: '#d3d3d3',
-    },    
+      height: "15%",
+    },
+    
     viewLogin:{
       padding: 40,
-      width: 380,
-      height: 230,
-      top: 50,     
-      borderRadius: 7,
+      width: "100%",
+      height: "40%",
+      bottom: "26%",
       justifyContent: 'center',
-      alignItems: 'center',
     },
-    entradas:{
-      flexDirection: 'row',
+    senhaText:{
+      color: '#fff',
+      fontSize: 18,
+      textAlign: 'center',
+      bottom: "10%",
+    },
+    entrada:{ 
+      bottom: "22%",      
       borderBottomWidth: 1,
       borderColor: '#fff',
+    },
+
+    viewButton:{
+      padding: 40,
+      width: "100%",
+      height: "40%",
+      bottom: "77%",      
+      justifyContent: 'center',
+      alignItems: 'center',
     },
     buttonStyles:{
       backgroundColor: '#fff',
       borderRadius: 5,
-      height: 50,
-      width: 300,
-      justifyContent: 'center',      
+      height: "30%",
+      width: "85%",
+      justifyContent: 'center',     
+    },
+    buttonTitulo: {
+      textAlign: 'center',
+      fontSize: 18,
+      color: '#808080',
+    },
+
+    EsqueciSenhaText:{
+      color: '#fff',
+      fontSize: 14,
+      textAlign: 'center',
+      top: "5%",
     },
 
     viewIcons:{
-      height: 150,
-      bottom: 10,
+      height: "100%",
+      bottom: "70%",
       padding: 20,
     },
     Icons:{
@@ -40,7 +70,8 @@ const styles = StyleSheet.create({
       flexDirection: 'row',
       justifyContent: 'space-around', 
       color: '#fff',
-      fontSize: 18,     
+      fontSize: 18,
+      fontWeight: 'bold',     
     },
   });
 

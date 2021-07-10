@@ -7,7 +7,7 @@
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/itauLogo.png",
-      "width": 60,
+      "width": "5%",
       "backgroundColor": "#ff7510",
       "justifyContent": "center",
       "alignItems": "center"

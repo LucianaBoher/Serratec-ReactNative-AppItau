@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   textInput: {
-    fontSize: 20,
+    fontSize: 18,
     padding: 8,
     color: '#FFF',
   },

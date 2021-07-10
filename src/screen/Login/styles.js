@@ -3,26 +3,25 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#ff7510',
     },
 
     viewLogo:{
-      bottom: 90,
-      left: 22,
+      bottom: "15%",
+      left: "5%",
     },
     logo:{
       resizeMode: 'contain',
-      width: 60,
+      width: "15%",
     },
 
     viewText: {
       width: 280,
-      bottom: 120,
-      left: 40,
+      bottom: "30%",
+      left: "10%",
     },
     textSup: {
       color: '#fff',
-      fontSize: 24,
+      fontSize: 20,
       fontWeight: 'bold',
     },
     textInf: {
@@ -33,13 +32,13 @@ const styles = StyleSheet.create({
     viewLogin:{
       padding: 40,
       backgroundColor: '#f29000',
-      width: 380,
-      height: 230,
-      bottom: 10,
-      left: 10,
-      borderRadius: 7,
-      justifyContent: 'center',
+      width: "100%",
+      height: "30%",
+      bottom: "10%",
       // alignItems: 'center',
+      left: "3%",          //copiando o pequeno deslocamento do App do Itaú....
+      borderRadius: 7,
+      justifyContent: 'center',      
     },
     entradas:{
       flexDirection: 'row',
@@ -47,7 +46,7 @@ const styles = StyleSheet.create({
       borderColor: '#fff',
     },
     switch:{
-      width: 25,
+      width: "10%",
     },
     switchText:{
       color: '#fff',
@@ -60,15 +59,20 @@ const styles = StyleSheet.create({
     buttonStyles:{
       backgroundColor: '#fff',
       borderRadius: 5,
-      height: 50,
-      width: 300,
+      height: "50%",
+      width: "100%",
       justifyContent: 'center',      
+    },
+    buttonTitulo: {
+      textAlign: 'center',
+      fontSize: 18,
+      color: '#808080',
     },
 
     viewIcons:{
       backgroundColor: '#d75413',
-      height: 150,
-      bottom: 10,
+      height: "15%",
+      bottom: "10%",
       padding: 20,
     },
     Icons:{

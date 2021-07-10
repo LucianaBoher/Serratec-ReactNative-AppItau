@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import RotaAutenticacao from './navigation/RotaAutenticacao';
+import RotaAutenticacao from './src/navigation/RotaAutenticação';
 
 const App = () => {  
   return (
