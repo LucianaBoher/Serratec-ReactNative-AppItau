@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
       bottom: "10%",
       // alignItems: 'center',
       left: "3%",          //copiando o pequeno deslocamento do App do Itaú....
-      borderRadius: 7,
+      borderRadius: 9,
       justifyContent: 'center',      
     },
     entradas:{
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     buttonStyles:{
       backgroundColor: '#fff',
       borderRadius: 5,
-      height: "50%",
+      height: "40%",
       width: "100%",
       justifyContent: 'center',      
     },
@@ -70,20 +70,11 @@ const styles = StyleSheet.create({
     },
 
     viewIcons:{
-      backgroundColor: '#d75413',
       height: "15%",
       bottom: "10%",
       padding: 20,
-    },
-    Icons:{
-      flexDirection: 'row',
-      justifyContent: 'space-around',        
-    },
-    textIcons:{
-      flexDirection: 'row',
-      justifyContent: 'space-around', 
-      color: '#fff',
-      fontSize: 18,     
+      justifyContent: 'center',
+      textAlign: 'center',
     },
   });
 

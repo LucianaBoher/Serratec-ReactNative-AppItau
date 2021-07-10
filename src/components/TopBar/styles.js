@@ -9,9 +9,16 @@ const styles = StyleSheet.create({
       justifyContent: 'space-between',
       padding: 15, 
     },
-    viewTextinho:{
+    viewIdentificacao:{
       marginRight: "40%",
-    }
+    },
+    iniciais:{
+      bottom: "4%",
+    },
+    identificacao:{
+      color: '#0020ff',
+      fontWeight:'bold',
+    },
   });
 
   export default styles;

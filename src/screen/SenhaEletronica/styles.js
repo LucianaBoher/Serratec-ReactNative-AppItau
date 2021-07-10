@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
       backgroundColor: '#fff',
       borderRadius: 5,
       height: "30%",
-      width: "85%",
+      width: "83%",
       justifyContent: 'center',     
     },
     buttonTitulo: {
@@ -56,22 +56,15 @@ const styles = StyleSheet.create({
       textAlign: 'center',
       top: "5%",
     },
+    buttonEsqSenha:{
+      backgroundColor: 'transparent',
+      padding: "3%",
+    },
 
     viewIcons:{
       height: "100%",
       bottom: "70%",
       padding: 20,
-    },
-    Icons:{
-      flexDirection: 'row',
-      justifyContent: 'space-around',        
-    },
-    textIcons:{
-      flexDirection: 'row',
-      justifyContent: 'space-around', 
-      color: '#fff',
-      fontSize: 18,
-      fontWeight: 'bold',     
     },
   });
 

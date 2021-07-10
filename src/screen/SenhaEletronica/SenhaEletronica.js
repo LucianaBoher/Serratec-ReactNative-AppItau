@@ -1,19 +1,20 @@
 import React, { useState } from 'react';
-import { View, Text } from 'react-native'
+import { View, Text, Image, Linking } from 'react-native'
 import styles from './styles'
 import InputText from '../../components/InputText/InputText'
 import Numeros from '../../components/CardsNumeros/Numeros'
 import Button from '../../components/Button/Button';
-import { Feather } from '@expo/vector-icons';
 import { EvilIcons } from '@expo/vector-icons';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
 import TopBar from '../../components/TopBar/TopBar';
+import AtalhosIcons from '../../components/AtalhosIcons/AtalhosIcons';
 
 
-const SenhaEletronica = () => {
+const SenhaEletronica = (props) => {
 
     const [senhaEletronica, setSenhaEletronica] = useState('');
+
+    const iniciais = <Image source={require('../../../assets/iniciais.png')} />
 
     return (
         <View style={styles.container}>
@@ -25,7 +26,7 @@ const SenhaEletronica = () => {
 
                 <View>
                     <View style={styles.statusBar} />
-                    <TopBar />
+                    <TopBar iniciais={iniciais} identificacao={'olá, Luciana'} contaAgencia={'ag ..33  c/c ...92-0'} />
                 </View>
 
                 <View style={styles.viewLogin}>
@@ -40,20 +41,14 @@ const SenhaEletronica = () => {
 
                 <View style={styles.viewButton}>
                     <Button titulo='acessar' buttonStyles={styles.buttonStyles} buttonTitulo={styles.buttonTitulo} />
-                    <Text style={styles.EsqueciSenhaText}>esqueci minha senha</Text>
+                    <Button titulo='esqueci minha senha'
+                        buttonStyles={styles.buttonEsqSenha}
+                        buttonTitulo={styles.EsqueciSenhaText}
+                        onPress={() => Linking.openURL('http://google.com')} />
                 </View>
 
                 <View style={styles.viewIcons}>
-                    <View style={styles.Icons}>
-                        <Feather name="command" size={25} color="white" />
-                        <MaterialCommunityIcons name="toggle-switch-off-outline" size={25} color="white" />
-                        <EvilIcons name="question" size={35} color="white" />
-                    </View>
-                    <View style={styles.textIcons}>
-                        <Text style={styles.textIcons}>Pix</Text>
-                        <Text style={styles.textIcons}>iToken</Text>
-                        <Text style={styles.textIcons}>ajuda</Text>
-                    </View>
+                    <AtalhosIcons />
                 </View>
 
             </LinearGradient>
