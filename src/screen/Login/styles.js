@@ -51,11 +51,13 @@ const styles = StyleSheet.create({
       borderColor: '#fff',
     },
     switch:{
-      width: "10%",
+      width: "13%",
+      transform: [{ scaleX: 1.5 }, { scaleY: 1.5 }],
     },
     switchText:{
       color: '#fff',
       fontSize: 16,
+      left:"20%",
     },
     viewSwitch: {
       flexDirection: 'row',

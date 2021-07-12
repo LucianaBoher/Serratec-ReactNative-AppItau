@@ -20,7 +20,7 @@ const Login = (props) => {
         <View style={styles.container}>
 
             <LinearGradient
-                colors={['#d75413', '#ff7510']}
+                colors={['#d75413', '#ffa500']}
                 style={{ height: "100%", width: "100%" }}
                 start={{ x: 0.0, y: 1.0 }} end={{ x: 0.0, y: 0.0 }}>
 
@@ -50,8 +50,10 @@ const Login = (props) => {
                         <Switch style={styles.switch}
                             trackColor={{ false: '#d3d3d3', true: '#d75413' }}
                             thumbColor={isEnabled ? '#fff' : '#fff'}
+                            // thumSize={'20'}
                             onValueChange={alternarSwitch}
-                            value={isEnabled} />
+                            value={isEnabled}
+                        />
                         <Text style={styles.switchText}>lembrar agência e conta</Text>
                     </View>
                     <Button titulo='ok' buttonStyles={styles.buttonStyles} buttonTitulo={styles.buttonTitulo}

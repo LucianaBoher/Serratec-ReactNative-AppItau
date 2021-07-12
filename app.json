@@ -8,7 +8,7 @@
     "splash": {      
       "image": "./assets/itauSplash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#fff"
+      "backgroundColor": "#fa8128"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
